@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <ul>
+                <li>
+                        <a href="index.html">Home</a>
+                </li>
+                <li>
+                        <a href="lista.html">Listas</a>
+                </li>
+                <li>
+                        <a href="tabela.html">Tabela</a>
+                </li>
+                <li>
+                        <a href="img.html">Imagens</a>
+                </li>
+        </ul>
+
+
+</head>
+
+<body>
+        <h1>Formulário</h1>
+
+        <form>
+                <div>
+
+                        <label for="nome">Nome</label>
+                        <input type="text">
+                </div>
+
+                <div>
+                        <br>
+                        <label for="idade">Idade:</label>
+                        <input type="number" min="0" max="100">
+                </div>
+
+                <div>
+                        <br>
+                        <label for="usuario">Usuário:</label>
+                        <input type="text">
+                </div>
+
+                <div>
+
+                        <br>
+                        <label for="senha">Senha:</label>
+                        <input type="password">
+                </div>
+                <br>
+                <div>
+                        <label for="DataEvento">Data do Evento:</label>
+                        <input type="datetime-local">
+                </div>
+                <br>
+                <div>
+                        <label for="">
+                                Telefone:
+                                <input type="tel" required placeholder="(XX)XXXXX-XXXX">
+                        </label>
+                </div>
+                <br>
+                <div>
+                        <label for="email">
+                                Email:
+                                <input type="email" required>
+                        </label>
+                </div>
+                <br>
+                <div>
+                        <label for="peso">
+                                Peso:
+                                <input type="number" min="0" max="200" step="0.25">
+                        </label>
+                </div>
+                <br>
+                <div>
+                        <label for="volume">
+                                Volume:
+                                <input type="range" min="0" max="100" step="10">
+
+                        </label>
+                </div>
+                <br>
+                <div>
+                        <fieldset>
+                                <legend>Estado Civil</legend>
+                                <label for="est_civil">
+                                        <input type="radio" name="est_civil" value="casado">Casado
+                                </label>
+
+                                <p>
+                                        <label>
+                                                <input type="radio" name="est_civil" value="solteiro">Solteiro
+                                        </label>
+                                </p>
+
+                                <p>
+                                        <label>
+                                                <input type="radio" name="est_civil" value="divorciado">Divorciado
+                                        </label>
+                                </p>
+                        </fieldset>
+                </div>
+                <div>
+                        <fieldset>
+                                <legend>Produtos</legend>
+                                <p>
+                                        <label>
+                                                <input type="checkbox" name="computador" value="computador"> Computador
+                                        </label>
+                                </p>
+                                <p>
+                                        <label>
+                                                <input type="checkbox" name="impressora" value="impressora"> Impressora
+                                        </label>
+                                </p>
+                                <p>
+                                        <label>
+                                                <input type="checkbox" name="monitor" value="monitor"> Monitor
+                                        </label>
+                                </p>
+                        </fieldset>
+                </div>
+
+                <div>
+                        <label>
+                                Deixe sua sugestão
+                                <textarea cols="30" rows="5"></textarea>
+                        </label>
+                </div>
+                <button type="submit">Enviar</button>
+        </form>
+</body>
+
+</html>
