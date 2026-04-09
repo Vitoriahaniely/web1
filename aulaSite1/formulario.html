@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -24,6 +24,35 @@
         <h1>Formulário</h1>
 
         <form>
+                <div>
+                        <label>
+                                Site: <input type="url" list="sites" name="link">
+                        </label>
+                </div>
+                <div>
+                        <p>
+                           <label>
+                                Carro:
+                                <select name="carros" required>
+                                        <optgroup label="1 Esportivos">
+                                        <option value="1.1">Ferrari</option>
+                                        <option value="1.2">Porshe</option>
+                                        <option value="1.3">Lamborghini</option>
+
+                                        <optgroup label="2 Populares">
+                                        <option value="2.1">Corsa</option>
+                                        <option value="2.2">Uno</option>
+                                        <option value="2.3">Gol</option>
+                                        <option value="2.4">Palio</option>
+                           </label>     
+                        </p>
+                </div>
+                        <br>
+                        <datalist id="sites">
+                                <option label="Box Instrumentos Mortais" value="https://www.amazon.com.br/Instrumentos-Mortais-Caixa-Cassandra-Clare/dp/8501107905/ref=asc_df_8501107905?mcid=5b8404b02c713feda877e59ffeeb569b&tag=googleshopp00-20&linkCode=df0&hvadid=709857900423&hvpos=&hvnetw=g&hvrand=16876305059633394963&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101268&hvtargid=pla-820640486101&psc=1&language=pt_BR&gad_source=1"></option>
+                                <option label="Box Cortes de Espinhos" value="https://www.amazon.com.br/Box-Corte-Espinhos-Rosas-Volumes/dp/8501303682"></option>
+                                <option label="Box Percy Jackson" value="https://www.amazon.com.br/Os-Her%C3%B3is-do-Olimpo-Box/dp/8580579503/ref=asc_df_8580579503?mcid=372dfb90427230e08c24df25c185808c&tag=googleshopp00-20&linkCode=df0&hvadid=709857900174&hvpos=&hvnetw=g&hvrand=15730338721551429316&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101268&hvtargid=pla-325935374846&psc=1&language=pt_BR&gad_source=1"></option>
+                        </datalist>
                 <div>
 
                         <label for="nome">Nome</label>
